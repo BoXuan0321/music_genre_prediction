@@ -63,5 +63,3 @@ output = np.array(['Alternative', 'Anime', 'Blues', 'Classical', 'Country', 'Ele
 #{'Alternative': 0, 'Anime': 1, 'Blues': 2, 'Classical': 3, 'Country': 4, 'Electronic': 5, 'Hip-Hop': 6, 'Jazz': 7, 'Rap': 8, 'Rock': 9}
 st.subheader('Prediction')
 st.write('The prediction is:' ,output[prediction][0])
-
-st.write('Thank you for using this system!')
